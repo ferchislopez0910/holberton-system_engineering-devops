@@ -1,9 +1,6 @@
-
 #!/bin/bash
+pwd
 
-$ wc -l 0-current_working_directory
 
-vagrant@vagrant-ubuntu-trusty-64:~/0x00-shell_basics/holberton-system_engineering-devops/0x00-shell_basics$ pwd
-/home/vagrant/0x00-shell_basics/holberton-system_engineering-devops/0x00-shell_basics
 
-chmod u+x 0-current_working_directory
+
