@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+# Write a Bash script that displays: The content of the current directory
+var=$(ls)
+for i in $var
+do
+	echo "$i" |cut -d "-" --complement -f1
+done
