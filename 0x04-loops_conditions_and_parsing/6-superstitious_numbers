@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# This script is displaying "Holberton School" 10 times with while
+iterador=1
+while ((iterador<=20))
+do
+	echo $iterador
+	case $iterador in 
+	4)
+		echo "bad luck from China"
+	;;
+	9)
+		echo "bad luck from Japan"
+	;;
+	17)
+		echo "bad luck from Italy"
+	;;
+	esac
+	((iterador++))
+done
