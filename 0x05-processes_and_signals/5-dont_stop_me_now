@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # We stopped our 4-to_infinity_and_beyond process using ctrl+c in the previous task, there is actually another way to do this.
-kill -9 2359
-# ps -ef
+# shellcheck disable=SC2009
+ps -ef | grep ./4-to_infinity_and_beyond | grep -v grep | awk '{print $2}' | xargs kill
