@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # We stopped our 4-to_infinity_and_beyond process using ctrl+c in the previous task, there is actually another way to do this.
-kill -9 $$
-# ps -ef | grep "sleep2"
+pkill 'sleep2'
+#ps -ef | grep "sleep2"| kill -9 
