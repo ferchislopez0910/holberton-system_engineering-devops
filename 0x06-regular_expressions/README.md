@@ -19,7 +19,7 @@ __5. Not quite HBTN yet__
 __6. Call me maybe__
 __7. OMG WHY ARE YOU SHOUTING?__
 
-<t>
+<p>
 Coincidencias Basicas
 .       - Cualquier Caracter, excepto nueva linea
 \d      - Cualquier Digitos (0-9)
@@ -49,7 +49,8 @@ Conjuntos de Caracteres
 Grupos
 ( )     - Grupo
 |       - Uno u otro
-</t>
+
+<p>
 
 ### Authors :black_nib:
 * __Maria Fernanda Lopez__
