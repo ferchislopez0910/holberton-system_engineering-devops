@@ -10,52 +10,51 @@ A regular expression, commonly called a “regexp”, is a sequence of character
 
 In this repo, you will find the following topics:
 
-__0. Simply matching Holberton__ 
-__1. Repetition Token #0__
-__2. Repetition Token #1__
-__3. Repetition Token #2__
-__4. Repetition Token #3__
-__5. Not quite HBTN yet__
-__6. Call me maybe__
-__7. OMG WHY ARE YOU SHOUTING?__
+- __0. Simply matching Holberton__ 
+- __1. Repetition Token #0__
+- __2. Repetition Token #1__
+- __3. Repetition Token #2__
+- __4. Repetition Token #3__
+- __5. Not quite HBTN yet__
+- __6. Call me maybe__
+- __7. OMG WHY ARE YOU SHOUTING?__
 
 
-Coincidencias Basicas
-.       - Cualquier Caracter, excepto nueva linea
-\d      - Cualquier Digitos (0-9)
-\D      - No es un Digito (0-9)
-\w      - Caracter de Palabra (a-z, A-Z, 0-9, _)
-\W      - No es un Caracter de Palabra.
-\s      - Espacios de cualquier tipo. (espacio, tab, nueva linea)
-\S      - No es un Espacio, Tab o nueva linea.
+### Coincidencias Basicas
+- .       - Cualquier Caracter, excepto nueva linea
+- \d      - Cualquier Digitos (0-9)
+- \D      - No es un Digito (0-9)
+- \w      - Caracter de Palabra (a-z, A-Z, 0-9, _)
+- \W      - No es un Caracter de Palabra.
+- \s      - Espacios de cualquier tipo. (espacio, tab, nueva linea)
+- \S      - No es un Espacio, Tab o nueva linea.
 
-Limites
-\b      - Limite de Palabra
-\B      - No es un Limite de Palabra
-^       - Inicio de una cadena de texto
-$       - Final de una cadena de texto
+### Limites
+- \b      - Limite de Palabra
+- \B      - No es un Limite de Palabra
+- ^       - Inicio de una cadena de texto
+- $       - Final de una cadena de texto
 
-Cuantificadores:
-*       - 0 o Más
-+       - 1 o Más
-?       - 0 o Uno
-{3}     - Numero Exacto
-{3,4}   - Rango de Numeros (Minimo, Maximo)
+### Cuantificadores:
+- (*)       - 0 o Más
+- (+)       - 1 o Más
+- ?       - 0 o Uno
+- {3}     - Numero Exacto
+- {3,4}   - Rango de Numeros (Minimo, Maximo)
 
-Conjuntos de Caracteres
-[]      - Caracteres dentro de los brackets
-[^ ]    - Caracteres que NO ESTAN dentro de los brackets
+### Conjuntos de Caracteres
+- []      - Caracteres dentro de los brackets
+- [^ ]    - Caracteres que NO ESTAN dentro de los brackets
+- 
+### Grupos
+- ( )     - Grupo
+- |       - Uno u otro
 
-Grupos
-( )     - Grupo
-|       - Uno u otro
 
-<p>
-
-### Authors :black_nib:
+## Authors :black_nib:
 * __Maria Fernanda Lopez__
 
-#### Software Academy 👨‍💻
+## Software Academy 👨‍💻
 
 <p aling="center">
 <a>
