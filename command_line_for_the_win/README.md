@@ -1,4 +1,4 @@
-<p align="center"><img ref='readme.png' alt='Banner' width=10%></p>
+<p align="center"><img src='readme.png' alt='Banner' width=10%></p>
 
 # Command line for the win
 
