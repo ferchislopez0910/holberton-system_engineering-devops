@@ -1,4 +1,4 @@
-<p align="center"><img src='https://i.pinimg.com/originals/36/4a/2e/364a2eb4a6d86cfa7bf0b5b4b5f983c7.gif' alt='Banner' width=10%></p>
+<p align="center"><img src='https://i.pinimg.com/originals/36/4a/2e/364a2eb4a6d86cfa7bf0b5b4b5f983c7.gif' alt='Banner' width=100%></p>
 
 # 0x09. Web infrastructure design 
 
