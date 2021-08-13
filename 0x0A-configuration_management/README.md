@@ -1,4 +1,4 @@
-<p align="center"><img src='https://c.tenor.com/Ww1b8dvB3joAAAAC/sysadmin-hotline.gif' alt='Banner' width=100%></p>
+<p align="center"><img src='https://c.tenor.com/Ww1b8dvB3joAAAAC/sysadmin-hotline.gif' alt='Banner' width=50%></p>
 
 # 0x0A. Configuration management
 
@@ -6,15 +6,15 @@
 ##### Read or watch:
 
 * Intro to Configuration Management <br>
-	*Tabspace* https://www.digitalocean.com/community/tutorials/an-introduction-to-configuration-management
+	** https://www.digitalocean.com/community/tutorials/an-introduction-to-configuration-management
 * Puppet resource type: file (check “Resource types” for all manifest types in the left menu)<br>
-	*Tabspace* https://puppet.com/docs/puppet/3.8/types/file.html
+	** https://puppet.com/docs/puppet/3.8/types/file.html
 * Puppet’s Declarative Language: Modeling Instead of Scripting <br>
-	*Tabspace* https://puppet.com/blog/puppets-declarative-language-modeling-instead-of-scripting/
+	** https://puppet.com/blog/puppets-declarative-language-modeling-instead-of-scripting/
 * Puppet lint <br>
-	*Tabspace* http://puppet-lint.com/
+	** http://puppet-lint.com/
 * Puppet emacs mode <br>
- 	*Tabspace* https://github.com/voxpupuli/puppet-mode
+ 	** https://github.com/voxpupuli/puppet-mode
 
 
 #### Requirements
