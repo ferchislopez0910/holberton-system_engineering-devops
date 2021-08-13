@@ -1,4 +1,4 @@
-# Using Puppet, create a file in /tmp.
+# First puppet 
 File_path { '/tmp/holberton':
   permission => '0744',
   owner      => 'www-data',
