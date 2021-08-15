@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# created hey for the name Holberton with the
+# flags -t, with -b you can to permition 
+# -N the new phrase for password 
+
+ssh-keygen -t rsa -b 4096 -f ./holberton -N "betty"
