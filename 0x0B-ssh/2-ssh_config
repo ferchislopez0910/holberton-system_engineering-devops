@@ -1,0 +1,8 @@
+# conectarse a un servidor sin key
+# el * indica que cualquier se puede conectar
+Host *
+ IgnoreUnknown AddKeysToAgent,UseKeychain
+ AddKeysToAgent yes
+ UseKeychain yes
+ IdentityFile ~/.ssh/holberton
+ PasswordAuthentication no
