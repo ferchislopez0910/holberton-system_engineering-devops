@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 # Its the comantd for to inicialize de server
-service Apache2 start
+service apache2 start
