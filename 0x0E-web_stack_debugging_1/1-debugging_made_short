@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Advance.
+# Configures an Nginx.
 ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
-kill "$(pgrep 'nginx' | head -1)"
 service nginx start
+kill "$(pgrep 'nginx' | head -1)"
