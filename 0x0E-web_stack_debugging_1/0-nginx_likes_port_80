@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
-sudo sed -i "s/8080/80/" /etc/nginx/sities-enabled/default
+# Nginx port 8080
+sudo sed -i "s/8080/80/" /etc/nginx/sites-enabled/default
+sudo service nginx restart
