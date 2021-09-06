@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# s install the ufw firewall and setup a few rules on web-01.
+
+# Step 1: Use IPv6 with UFW (optional) 
+sudo apt-get /etc/default/ufw
+
+# Step 2: Configure default policies 
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+
+# Step 3: Enable SSH connections 
+sudo ufw allow ssh
+sudo ufw allow 22
+#allow port 80
+sudo ufw allow http
+#allow port 443
+sudo ufw allow https
+
+# start
+sudo ufw enable
